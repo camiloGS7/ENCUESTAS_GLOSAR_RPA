@@ -6,7 +6,7 @@
   },
   "deploy": {
     "startCommand": "python main.py",
-    "cronSchedule": "*/15 13-22 * * *",
+    "cronSchedule": "*/15 0-1,14-23 * * *",
     "restartPolicyType": "NEVER"
   }
 }
